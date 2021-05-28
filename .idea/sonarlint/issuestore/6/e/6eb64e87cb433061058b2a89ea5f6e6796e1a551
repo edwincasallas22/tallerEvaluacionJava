@@ -1,0 +1,20 @@
+
+|
+java:S4165 "aRemove this useless assignment; "DNI" already holds the assigned value along all execution paths.(È÷§‡ûÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦³Ôi
+s
+java:S1488o"]Immediately return this expression instead of assigning it to the temporary variable "mayor".(´á€±
+V
+java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8¶”Ğˆ›/
+i	java:S116"TRename this field "MASCULINO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÑÅı
+g	java:S116"SRename this field "FEMENINO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®
+h	java:S116
+"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(£ÑÅı
+6
+java:S1170"!Make this final field static too.(®
+W
+java:S1126i"AReplace this if-then-else statement by a single return statement.(õÿë“
+F
+java:S2140")Use "java.util.Random.nextInt()" instead.(ì°–í8ÅšÚˆ›/

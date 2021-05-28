@@ -1,0 +1,25 @@
+
+j
+java:S1192'"UDefine a constant instead of duplicating this literal "Informacion general " 3 times.(Í¨¬k
+j
+java:S1192&"ODefine a constant instead of duplicating this literal "Resultados de " 3 times.(ÍØºûÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦³Ôi
+J
+java:S6212"/Declare this local variable with "var" instead.(¥µÙ“şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ç²ü²
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×ïû¹
+S	java:S106"9Replace this use of System.out or System.err by a logger.(œñ²şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(—ïÙíıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(³ûûÄ
+J
+java:S6212"/Declare this local variable with "var" instead.(†Â’ğøÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(÷¦³„úÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(â»Õõıÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ÍØºûÿÿÿÿ
+M	java:S106'"9Replace this use of System.out or System.err by a logger.(Í¨¬k
+S	java:S106("9Replace this use of System.out or System.err by a logger.(şäÄøıÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(Ä ÷Š
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(ÁÂŒ¦
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(ÆØ¿¾

@@ -1,0 +1,15 @@
+
+a
+java:S1192
+"KDefine a constant instead of duplicating this literal "El numero " 3 times.(¨È÷Ò
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¹àñúÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(Úþ—Ô
+E
+java:S6212"/Declare this local variable with "var" instead.(°Ñ¡™
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(¨È÷Ò
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÙÊŒ¡úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶·ÿ»üÿÿÿÿ

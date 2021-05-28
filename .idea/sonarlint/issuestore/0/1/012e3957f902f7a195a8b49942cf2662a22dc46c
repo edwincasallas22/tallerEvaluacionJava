@@ -1,0 +1,9 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’‡òã
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(Òñßñ
+E
+java:S6212"/Declare this local variable with "var" instead.(ÁˆŸê
+C	java:S131""Add a default case to this switch.(ã®Æóúÿÿÿÿ8ùÊ¯‚›/

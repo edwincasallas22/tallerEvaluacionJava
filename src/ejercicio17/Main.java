@@ -8,16 +8,16 @@ public class Main {
 
         Electrodomestico[] electrodomesticos = new Electrodomestico[10];
 
-        electrodomesticos[0] = new Lavadora(80, 50);
-        electrodomesticos[1] = new Electrodomestico(70, "rojo", 'B', 40);
-        electrodomesticos[2] = new Television(130, "negro", 'A', 13, 50, true);
-        electrodomesticos[3] = new Lavadora(202, "gris", 'D',14,20 );
-        electrodomesticos[4] = new Electrodomestico(160, 80);
-        electrodomesticos[5]= new Television(120, "negro",'F',10,50,true);
-        electrodomesticos[6]= new Electrodomestico(150,"negro",'C',20 );
-        electrodomesticos[7]= new Electrodomestico(230, 50);
-        electrodomesticos[8]= new Television(230, "gris",'A',16,50,false);
-        electrodomesticos[9]= new Lavadora(190, "blanco",'A',20,30);
+        electrodomesticos[0] = new Electrodomestico();
+        electrodomesticos[1] = new Electrodomestico(80,50);
+        electrodomesticos[2] = new Electrodomestico(60,"ROJO",'C',27);
+        electrodomesticos[3] = new Lavadora();
+        electrodomesticos[4] = new Lavadora(90,12);
+        electrodomesticos[5]= new Lavadora(120,"Blanco",'Q',75,40);
+        electrodomesticos[6]= new Television();
+        electrodomesticos[7]= new Television(200,85);
+        electrodomesticos[8]= new Television(150, "gris",'A',10,60,true);
+        electrodomesticos[9]= new Lavadora(200, "blanco",'A',10,30);
 
 
         Main.sumaLavadora(electrodomesticos);
@@ -25,13 +25,16 @@ public class Main {
         Main.sumaElectrodomestico(electrodomesticos);
     }
 
-    public static void sumaLavadora(Electrodomestico[] elec){
+    public static Double sumaLavadora(Electrodomestico[] elec ){
         Arrays.stream(elec).filter(ele -> ele instanceof Lavadora).forEach(lav -> System.out.println("precio de lavadora "+lav.precioFinal()));
+        return Arrays.stream(elec).filter(x -> x instanceof Lavadora).map(Electrodomestico::precioFinal).reduce((double) 0, Double::sum);
     }
-    public static void sumaTelevisor(Electrodomestico[] elec){
+    public static Double sumaTelevisor(Electrodomestico[] elec){
         Arrays.stream(elec).filter(ele -> ele instanceof Television).forEach(lav -> System.out.println("precio de televisor "+lav.precioFinal()));
+        return Arrays.stream(elec).filter(x -> x instanceof Television).map(Electrodomestico::precioFinal).reduce((double) 0, Double::sum);
     }
-    public static void sumaElectrodomestico(Electrodomestico[] elec){
+    public static Double sumaElectrodomestico(Electrodomestico[] elec){
         Arrays.stream(elec).filter(ele -> ele instanceof Electrodomestico).forEach(lav -> System.out.println("precio de electrodomestico "+lav.precioFinal()));
+        return Arrays.stream(elec).filter(x -> x instanceof Electrodomestico).map(Electrodomestico::precioFinal).reduce((double) 0, Double::sum);
     }
 }
