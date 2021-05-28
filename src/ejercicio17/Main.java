@@ -8,16 +8,16 @@ public class Main {
 
         Electrodomestico[] electrodomesticos = new Electrodomestico[10];
 
-        electrodomesticos[0] = new Lavadora(150, 50);
-        electrodomesticos[1] = new Electrodomestico(150, "rojo", 'B', 20);
-        electrodomesticos[2] = new Television(150, "negro", 'A', 10, 50, true);
-        electrodomesticos[3] = new Lavadora(200, "gris", 'D',10,20 );
-        electrodomesticos[4] = new Electrodomestico(180, 50);
-        electrodomesticos[5]= new Television(150, "negro",'F',10,50,true);
+        electrodomesticos[0] = new Lavadora(80, 50);
+        electrodomesticos[1] = new Electrodomestico(70, "rojo", 'B', 40);
+        electrodomesticos[2] = new Television(130, "negro", 'A', 13, 50, true);
+        electrodomesticos[3] = new Lavadora(202, "gris", 'D',14,20 );
+        electrodomesticos[4] = new Electrodomestico(160, 80);
+        electrodomesticos[5]= new Television(120, "negro",'F',10,50,true);
         electrodomesticos[6]= new Electrodomestico(150,"negro",'C',20 );
-        electrodomesticos[7]= new Electrodomestico(190, 50);
-        electrodomesticos[8]= new Television(150, "gris",'A',10,50,false);
-        electrodomesticos[9]= new Lavadora(200, "blanco",'A',10,30);
+        electrodomesticos[7]= new Electrodomestico(230, 50);
+        electrodomesticos[8]= new Television(230, "gris",'A',16,50,false);
+        electrodomesticos[9]= new Lavadora(190, "blanco",'A',20,30);
 
 
         Main.sumaLavadora(electrodomesticos);
